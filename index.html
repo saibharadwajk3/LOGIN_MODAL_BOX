@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login_Model</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/113e797535.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <button id="modalBtn" class="button">Login</button>
+
+    <div id="simpleModal" class="modal">
+
+        <div class="modal-content">
+
+            <div class="header">
+                <span class="closeBtn">&times;</span>
+                <h2>Login Here</h2>
+            </div>
+
+            <div class="loginbox">
+
+
+                <form>
+                    <label for="username"><i class="fas fa-user"></i>Username</label>
+                    <input type="text" id="username" placeholder="Enter Username" autofocus>
+
+                    <label for="password"><i class="fas fa-lock"></i>Password</label>
+                    <input type="password" id="password" placeholder="Enter Password">
+
+                    <input type="submit" value="login">
+
+                </form>
+
+            </div>
+
+
+            <div class="footer">
+                <a href="#">Forgot password?</a>
+                <a href="#">new user?</a>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
