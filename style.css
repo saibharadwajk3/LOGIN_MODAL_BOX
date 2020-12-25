@@ -42,7 +42,7 @@ body {
     width: 380px;
     height: 400px;
     color: #fff;
-    background: rgba(0, 0, 0, .8);
+    background: rgba(0, 0, 0, 0.8);
     box-shadow: 0 5px 8px 0 rgba(243, 92, 92, 0.2), 0 7px 20px 0 rgba(231, 93, 93, 0.17);
     animation-name: modalopen;
     animation-duration: 1s;
@@ -63,10 +63,10 @@ body {
 
 @keyframes modalopen {
     from {
-        opacity: 0
+        opacity: 0;
     }
     to {
-        opacity: 1
+        opacity: 1;
     }
 }
 
