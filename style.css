@@ -127,15 +127,15 @@ input[type="password"] {
     margin-top: 20px;
     height: 40px;
     font-size: 18px;
-    background: #fb2525;
-    color: #fff;
+    background: #fff;
+    color: #000;
     border-radius: 20px;
 }
 
 .loginbox input[type="submit"]:hover {
     cursor: pointer;
-    background: #fff;
-    color: #000;
+    background: red;
+    color: #fff;
 }
 
 .footer a {
